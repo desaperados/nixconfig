@@ -1,0 +1,19 @@
+diff --git a/setup.py b/setup.py
+index 50da893..4ea3bce 100755
+--- a/setup.py
++++ b/setup.py
+@@ -3,10 +3,10 @@
+ from distutils.core import setup
+
+ setup(
+-  name="keeper",
++  name="pymaker",
+   version="0.5",
+-  description="Maker Keeper framework",
++  description="Maker Python wrapper",
+   author="reverendus",
+-  url="https://github.com/makerdao/keeper",
+-  packages=["keeper"]
++  url="https://github.com/makerdao/pymaker",
++  packages=["pymaker"]
+ )

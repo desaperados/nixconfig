@@ -1,0 +1,18 @@
+diff --git a/setup.py b/setup.py
+new file mode 100644
+index 0000000..c639c3a
+--- /dev/null
++++ b/setup.py
+@@ -0,0 +1,12 @@
++#!/usr/bin/env python
++
++from distutils.core import setup
++
++setup(
++  name="keeper",
++  version="0.5",
++  description="Maker Keeper framework",
++  author="reverendus",
++  url="https://github.com/makerdao/arbitrage-keeper",
++  packages=["arbitrage_keeper"]
++)
